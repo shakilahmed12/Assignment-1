@@ -34,6 +34,7 @@ body{
 h2{
     text-align: center;
     font-size: xx-large;
+    margin-top: 140px;
 }
 p{
     text-align: center;
@@ -75,4 +76,58 @@ p{
 }
 a:hover{
     border: 4px solid rgb(144, 144, 225);
+}
+.box-master{
+    display: flex;
+    justify-content: center;
+}
+.box2 {
+    width: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 20px;
+    background-color: aliceblue;
+    margin-left: 25px;
+    
+}
+#box2i{
+    background-color: rgb(160, 216, 216);
+}
+#box2j{
+    background-color: rgb(240, 172, 240);
+}
+#box2k{
+    background-color: bisque;
+}
+.box2 p{
+    padding-top: 15px;
+}
+h4{
+    font-size: x-large;
+}
+p{
+    font-size: large;
+}
+.site-footer{
+    background: red;
+}
+#footer-containt{
+    background: black;
+
+}
+h5{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-size: medium;
+}
+h6{
+    color: crimson;
+    font-size: xx-large;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-bottom: 5%;
+    padding-top: 5%;
 }
