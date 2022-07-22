@@ -111,23 +111,24 @@ p{
 .site-footer{
     background: red;
 }
-#footer-containt{
+.site-footer{
     background: black;
+    margin-bottom: 0px;
 
 }
-h5{
+.last2{
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
     font-size: medium;
+    padding-bottom: 40px;
 }
-h6{
+.last1{
     color: crimson;
     font-size: xx-large;
     text-align: center;
     font-family: 'Lobster', cursive;
-    margin-bottom: 5%;
-    padding-top: 5%;
+    padding-top: 40px;
 }
